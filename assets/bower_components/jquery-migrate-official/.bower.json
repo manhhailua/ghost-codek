@@ -1,0 +1,15 @@
+{
+  "name": "jquery-migrate-official",
+  "homepage": "https://github.com/jquery/jquery-migrate",
+  "version": "3.0.0",
+  "_release": "3.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.0.0",
+    "commit": "48e7cae12fc2e545dba8fdc4e9d67f62f23025bb"
+  },
+  "_source": "https://github.com/jquery/jquery-migrate.git",
+  "_target": "^3.0.0",
+  "_originalSource": "jquery-migrate-official",
+  "_direct": true
+}

@@ -16,5 +16,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "prism": "^1.5.1",
+    "jquery": "^3.0.0",
+    "jquery-migrate-official": "^3.0.0"
+  }
 }
