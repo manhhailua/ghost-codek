@@ -31,20 +31,27 @@ var disqus_shortname = 'example'; // required: replace example with your forum s
 
 **Navigation**
 
-For changing the navigation links and labels, you have to edit the ```partials/header.hbs``` file.
+For changing the navigation links and labels, you have to edit the ```partials/navigation.hbs``` file.
 
 ```
-<!--Change this to customize the navigation-->
-<div class="taglist-wrapper clearfix">
-  <ul id="taglist" class="taglist">
-      <li><a href="{{@blog.url}}">Home</a></li>
-      <li><a href="/tag/javascript">javascript</a></li>
-      <li><a href="/tag/nodejs">nodejs</a></li>
-      <li><a href="/tag/data-visualization">data visualization</a></li>
-      <li><a href="/tag/d3">d3</a></li>
-      <li><a href="/tag/maps">maps</a></li>
-  </ul>
-</div>
+<!--Uncomment this to customize the navigation manually-->
+<!--<div class="taglist-wrapper clearfix">-->
+  <!--<ul id="taglist" class="taglist">-->
+    <!--<li><a href="{{@blog.url}}">Home</a></li>-->
+    <!--<li><a href="/tag/javascript">javascript</a></li>-->
+    <!--<li><a href="/tag/nodejs">nodejs</a></li>-->
+    <!--<li><a href="/tag/data-visualization">data visualization</a></li>-->
+    <!--<li><a href="/tag/d3">d3</a></li>-->
+    <!--<li><a href="/tag/maps">maps</a></li>-->
+  <!--</ul>-->
+<!--</div>-->
+
+<!--This is for default navigation-->
+<ul id="taglist" class="taglist">
+  {{#foreach navigation}}
+    <li><a href="{{url}}">{{label}}</a></li>
+  {{/foreach}}
+</ul>
 ```
 
 **Sidebar Widgets**
@@ -71,4 +78,3 @@ The other two widgets are configured in the ```partials/sidebar.hbs``` template.
 ### Authors
 
 [Manh Pham](https://www.facebook.com/manhhailua) of [codek.org](http://codek.org)
-[Moritz Klack](http://twitter.com/moklick) and [Christopher Möller](http://twitter.com/chrtze) of [webkid.io](http://www.webkid.io).
