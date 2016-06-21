@@ -12,6 +12,7 @@
 
 ### Upcoming features
 
+* `Subscribe` sidebar
 * Responsive to mobile for main navigation
 * `Random articles` sidebar
 * `Related articles` sidebar to currently viewing post
