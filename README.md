@@ -8,10 +8,10 @@
 ### Theme features
 
 * `About` sidebar show different content by blog|post|page|tag description
+* Code highlighting by [prism.js](https://github.com/PrismJS/prism)
 
 ### Upcoming features
 
-* Code highlighting by [prism.js](https://github.com/PrismJS/prism)
 * Responsive to mobile for main navigation
 * `Random articles` sidebar
 * `Related articles` sidebar to currently viewing post
@@ -87,6 +87,16 @@ The other two widgets are configured in the ```partials/sidebar.hbs``` template.
     <li><a href="{{@blog.url}}" target="_blank" class="social-item home"><i class="fa fa-home"></i></a></li>
   </ul>
 </div>
+```
+
+**Code highlighting**
+
+To use prism.js style for code block markdown, add `language-xxxx` (`xxxx` equal to language to be highlighted) next to the opening ` ``` `.
+
+```
+ ```language-markup
+ <h1>Hello World!</h1>
+ ```
 ```
 
 ### Authors
