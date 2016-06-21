@@ -1,0 +1,13 @@
+{{! The big featured header }}
+<header id="header">
+  <nav class="header-nav" {{#if @blog.cover}}style="background-image:url({{@blog.cover}}){{/if}}">
+
+    <div class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></div>
+
+    <!--Change this to customize the navigation-->
+    <div class="taglist-wrapper clearfix">
+      {{navigation}}
+    </div>
+  </nav>
+
+</header>

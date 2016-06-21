@@ -1,0 +1,63 @@
+<!-- Show whatever your want -->
+<div class="box sidebox about">
+  <div class="sidebox-title">About</div>
+  <div class="sidebox-content">
+    {{#is "author"}}
+      {{#author}}
+        <p>{{bio}}</p>
+      {{/author}}
+    {{else is "tag"}}
+      {{#tag}}
+        <p>{{description}}</p>
+      {{/tag}}
+    {{else}}
+      <p>{{@blog.description}}</p>
+    {{/is}}
+  </div>
+</div>
+
+<!--Change the links to your sites-->
+<div class="sidebox box social clearfix">
+  <ul>
+    <li>
+      <a href="/rss" target="_blank" class="social-item rss">
+        <i class="fa fa-rss"></i>
+      </a>
+    </li>
+
+    <li>
+      <a href="{{facebook_url}}" target="_blank" class="social-item facebook">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+
+    <li>
+      <a href="{{twitter_url}}" target="_blank" class="social-item tw">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+
+    <li>
+      <a href="{{@blog.url}}" target="_blank" class="social-item home">
+        <i class="fa fa-home"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- Latest posts -->
+<div class="box sidebox latest-articles">
+  <div class="sidebox-title">Latest Articles</div>
+  <div class="sidebox-content loading">
+    {{#foreach posts limit="5"}}
+      <a href="{{url}}">
+        <div class="date">{{date format='MMM DD, YYYY'}}</div>
+        <div>{{title}}</div>
+      </a>
+    {{/foreach}}
+    <div class="loader">
+      <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+    </div>
+  </div>
+</div>
+
