@@ -1,10 +1,9 @@
-# ghost-wbkd
-A [ghost](https://ghost.org/)/[journey](https://github.com/kabukky/journey) theme.
+# ghost-codek
+### a fork from [ghost-wbkd](https://github.com/wbkd/ghost-wbkd)
 
+![screenshot](https://raw.githubusercontent.com/manhhailua/ghost-codek/master/screenshot.png)
 
-![screenshot](https://raw.githubusercontent.com/wbkd/ghost-wbkd/master/screenshot.jpg)
-
-**See it live on [our blog](http://blog.webkid.io)**
+**See it live on [my blog](http://codek.org)**
 
 ### Install
 
@@ -12,10 +11,10 @@ To install the theme, clone this repository into your theme folder of your ghost
 
 ```
 $ cd path-to-ghost/content/themes
-$ git clone https://github.com/wbkd/ghost-wbkd.git
+$ git clone https://github.com/manhhailua/ghost-codek.git
 ```
 
-After that, restart the blog and select the webkid theme in your ghost admin panel.
+After that, restart the blog and select the `codek-{version}` theme in your ghost admin panel.
 
 ### Customize
 
@@ -56,21 +55,20 @@ The other two widgets are configured in the ```partials/sidebar.hbs``` template.
 
 ```
 <!--Change this to your homepage-->
-<p>See our latest projects at <a href="http://www.webkid.io">webkid.io</a></p>
+<p>See our latest posts at <a href="http://codek.org">codek.org</a></p> (for Vietnamese only)
 
-<!--Change the links to your sites-->
+<!--Change the links to your sites or use default setting-->
 <div class="sidebox box social clearfix">
   <ul>
-    <a href="/rss" target="_blank" class="social-item rss"><li><i class="fa fa-rss"></i></li></a>
-    <a href="http://twitter.com/webk1d" target="_blank" class="social-item tw"><li><i class="fa fa-twitter"></i></li></a>
-    
-    <a href="http://github.com/wbkd" target="_blank" class="social-item github"><li><i class="fa fa-github"></i></li></a>
-    
-    <a href="http://webkid.io" target="_blank" class="social-item home"><li><i class="fa fa-home"></i></li></a>
+    <li><a href="/rss" target="_blank" class="social-item rss"><i class="fa fa-rss"></i></a></li>
+    <li><a href="{{facebook_url}}" target="_blank" class="social-item facebook"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="{{twitter_url}}" target="_blank" class="social-item tw"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="{{@blog.url}}" target="_blank" class="social-item home"><i class="fa fa-home"></i></a></li>
   </ul>
 </div>
 ```
 
 ### Authors
 
+[Manh Pham](https://www.facebook.com/manhhailua) of [codek.org](http://codek.org)
 [Moritz Klack](http://twitter.com/moklick) and [Christopher Möller](http://twitter.com/chrtze) of [webkid.io](http://www.webkid.io).
