@@ -99,6 +99,12 @@ To use prism.js style for code block markdown, add `language-xxxx` (`xxxx` equal
  ```
 ```
 
+Change below line of code in `default.hbs` to switch to expected highlighting style. Choose your prefered prism theme.
+
+```
+<link rel="stylesheet" type="text/css" href="{{asset "bower_components/prism/themes/prism-tomorrow.css"}}"/>
+```
+
 ### Authors
 
 [Manh Pham](https://www.facebook.com/manhhailua) of [codek.org](http://codek.org)
