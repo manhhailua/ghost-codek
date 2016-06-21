@@ -1,0 +1,20 @@
+{
+  "name": "codek",
+  "description": "A theme for IT blog.",
+  "main": "",
+  "authors": [
+    "manhhailua <manhhailua@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "codek"
+  ],
+  "homepage": "https://github.com/manhhailua/ghost-codek",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
