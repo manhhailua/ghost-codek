@@ -5,6 +5,20 @@
 
 **See it live on [my blog](http://codek.org)**
 
+### Theme features
+
+* `About` sidebar show different content by blog|post|page|tag description
+
+### Upcoming features
+
+* Code highlighting by [prism.js](https://github.com/PrismJS/prism)
+* Responsive to mobile for main navigation
+* `Random articles` sidebar
+* `Related articles` sidebar to currently viewing post
+* Post auto navigation sidebar
+
+Request for a feature? Submit an issue [here](https://github.com/manhhailua/ghost-codek/issues).
+
 ### Install
 
 To install the theme, clone this repository into your theme folder of your ghost installation:
