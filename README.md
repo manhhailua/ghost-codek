@@ -12,6 +12,7 @@
 
 ### Upcoming features
 
+* `Google Search` sidebar (embeded google search)
 * `Subscribe` sidebar
 * Responsive to mobile for main navigation
 * `Random articles` sidebar
