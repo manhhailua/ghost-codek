@@ -95,12 +95,6 @@ The other two widgets are configured in the ```partials/sidebar.hbs``` template.
 
 To use prism.js style for code block markdown, add `language-xxxx` (`xxxx` equal to language to be highlighted) next to the opening ```.
 
-```
- ```language-markup
- <h1>Hello World!</h1>
- ```
-```
-
 Change below line of code in `default.hbs` to switch to expected highlighting style. Choose your prefered prism theme.
 
 ```
