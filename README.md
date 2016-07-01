@@ -9,6 +9,7 @@
 
 * `About` sidebar show different content by blog|post|page|tag description
 * Code highlighting by [prism.js](https://github.com/PrismJS/prism)
+* Facebook comments
 
 ### Upcoming features
 
