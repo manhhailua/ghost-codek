@@ -878,6 +878,11 @@ body:not(.post-template) .post-title {
     margin: 0 -13%;
 }
 
+/* Make content justified */
+.post-content p {
+    text-align: justify;
+}
+
 /* The author credit area after the post */
 .post-footer {
     position: relative;
