@@ -201,21 +201,26 @@ body * {
   display: block;
 }
 
-.sidebox.google-search-box .sidebox-content .gsc-control-cse {
+/* Google search box fixes */
+#___gcse_0 > div {
   padding: 0;
   border: none;
 }
 
-.sidebox.google-search-box .sidebox-content .gsc-control-cse > .gsc-control-wrapper-cse form.gsc-search-box-tools {
+#___gcse_0 > div > div > form {
   margin: 0;
 }
 
-.sidebox.google-search-box .sidebox-content .gsc-control-cse > .gsc-control-wrapper-cse form.gsc-search-box-tools table.gsc-search-box {
+#___gcse_0 > div > div > form > table.gsc-search-box {
   margin: 0;
 }
 
 #gs_id50 {
   margin: 0;
+}
+
+#gs_tti50 {
+  padding: 1px;
 }
 
 .sidebox .loader {
