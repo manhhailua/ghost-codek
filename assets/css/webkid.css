@@ -202,47 +202,28 @@ body * {
 }
 
 /* Google search box fixes */
-#___gcse_0 > div {
-  padding: 0;
-  border: none;
+.gsc-input-box {
+  background: none !important;
+  border: none !important;
+  height: auto !important;
 }
 
-#___gcse_0 > div > div > form {
-  margin: 0;
+.gsc-search-box .gsc-input > input:hover,
+.gsc-input-box-hover {
+  border: none !important;
 }
 
-#___gcse_0 > div > div > form > table.gsc-search-box {
-  margin: 0;
+.gsc-search-box .gsc-input > input:focus,
+.gsc-input-box-focus {
+  border: none !important;
 }
 
-#gs_id50 {
-  margin: 0;
+.gsc-result .gs-title {
+  line-height: 1.5em !important;
 }
 
-#gs_id50 > tbody > tr > td {
-  background: none;
-}
-
-#gs_tti50 {
-  padding: 1px;
-}
-
-#___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td {
-  padding: 0;
-  border: none;
-}
-
-#___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td.gsc-input {
-  padding-right: 10px;
-}
-
-#___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td.gsc-search-button {
-  border: none;
-}
-
-#___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td.gsc-search-button > input {
-  margin: 0;
-  display: block;
+input.gsc-input {
+  border: 1px solid #d9d9d9 !important;
 }
 
 .sidebox .loader {
