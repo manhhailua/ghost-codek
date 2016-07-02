@@ -39,7 +39,7 @@ Due to restrictions of the Ghost templates, some values are hard-coded at the mo
 
 **Disqus**
 
-To enable the Disqus comment module, you have to add you Disqus username in the ```post.hbs``` file:
+To enable the Disqus comment module, you have to add you Disqus username in the ```post.hbs``` file and comment out Facebook comments code:
 
 ```
 var disqus_shortname = 'example'; // required: replace example with your forum shortname
