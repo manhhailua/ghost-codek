@@ -38,11 +38,13 @@
 </div>
 
 <!-- Subscribe button -->
-<div class="box sidebox subscribe">
+<div class="box sidebox subscribe-box">
   <div class="sidebox-title">Subscribe this blog</div>
-  {{#if @labs.subscribers}}
-    <a class="subscribe-button" href="{{@blog.url}}/subscribe/">Subscribe</a>
-  {{else}}
-    <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
-  {{/if}}
+  <div class="sidebox-content">
+    {{#if @labs.subscribers}}
+      <a class="subscribe-button" href="{{@blog.url}}/subscribe/">Subscribe</a>
+    {{else}}
+      <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
+    {{/if}}
+  </div>
 </div>
