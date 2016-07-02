@@ -223,6 +223,18 @@ body * {
   padding: 1px;
 }
 
+#___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td {
+  padding: 0;
+}
+
+#___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td.gsc-input {
+  padding-right: 10px;
+}
+
+#___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td.gsc-search-button {
+
+}
+
 .sidebox .loader {
   width: 100%;
   text-align: center;
