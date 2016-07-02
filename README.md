@@ -10,14 +10,14 @@
 * `About` sidebar show different content by blog|post|page|tag description
 * Code highlighting by [prism.js](https://github.com/PrismJS/prism)
 * Facebook comments
+* `Subscribe` sidebar (Subscribe Button)
 
 ### Upcoming features
 
 * `Google Search` sidebar (embeded google search)
-* `Subscribe` sidebar
-* Responsive to mobile for main navigation
 * `Random articles` sidebar
 * `Related articles` sidebar to currently viewing post
+* Responsive to mobile for main navigation
 * Post auto navigation sidebar
 
 Request for a feature? Submit an issue [here](https://github.com/manhhailua/ghost-codek/issues).
