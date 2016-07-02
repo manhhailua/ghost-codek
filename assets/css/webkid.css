@@ -219,12 +219,17 @@ body * {
   margin: 0;
 }
 
+#gs_id50 > tbody > tr > td {
+  background: none;
+}
+
 #gs_tti50 {
   padding: 1px;
 }
 
 #___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td {
   padding: 0;
+  border: none;
 }
 
 #___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td.gsc-input {
@@ -232,7 +237,12 @@ body * {
 }
 
 #___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td.gsc-search-button {
+  border: none;
+}
 
+#___gcse_0 > div > div > form > table.gsc-search-box > tbody > tr > td.gsc-search-button > input {
+  margin: 0;
+  display: block;
 }
 
 .sidebox .loader {
