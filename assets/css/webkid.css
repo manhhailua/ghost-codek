@@ -201,31 +201,6 @@ body * {
   display: block;
 }
 
-/* Google search box fixes */
-.gsc-input-box {
-  background: none !important;
-  border: none !important;
-  height: auto !important;
-}
-
-.gsc-search-box .gsc-input > input:hover,
-.gsc-input-box-hover {
-  border: none !important;
-}
-
-.gsc-search-box .gsc-input > input:focus,
-.gsc-input-box-focus {
-  border: none !important;
-}
-
-.gsc-result .gs-title {
-  line-height: 1.5em !important;
-}
-
-input.gsc-input {
-  border: 1px solid #d9d9d9 !important;
-}
-
 .sidebox .loader {
   width: 100%;
   text-align: center;

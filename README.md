@@ -14,7 +14,6 @@
 
 ### Upcoming features
 
-* `Google Search` sidebar (embeded google search)
 * `Random articles` sidebar
 * `Related articles` sidebar to currently viewing post
 * Responsive to mobile for main navigation
